@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script src="/menu.js" defer></script>
+  <title>Rafa Dev - Portfólio</title>
+</head>
+<body>
+
+  <!-- cabeçalho - criação dos menus -->
+  <header>
+    <div  class="interface">
+      <div class="logo">
+        <a href="#logo-rafa-dev">
+          <img id="logo-rafa-dev" src="../img/logo-rafa-dev.png" alt="Logo Rafa Dev" width="275" height="83">
+        </a>
+      </div>
+
+      <!-- criação menu desktop  -->
+
+      <nav class="menu-desktop">
+        <!-- Lista de Links de Navegação para a Barra de Menu desktop -->
+        <ul>
+          <li><a href="#logo-rafa-dev">Home</a></li>
+          <li><a href="#sobre-mim">Sobre</a></li>
+          <li><a href="#txt-formacao">Formação</a></li>
+          <li><a href="#txt-esperiencia">Experiência</a></li>
+          <li><a href="#txt-portfolio">Portfólio</a></li>
+        </ul>
+      </nav>
+
+      <div class="btn-contato">
+        <!-- Botão de Contato -->
+        <a href="#txt-fale-comigo">
+          <button>Contato</button>
+        </a>
+      </div>
+
+      <!-- criação menu mobile  -->
+
+      <div class="btn-abrir-menu" id="btn-abrir-menu"><!-- botão abrir Menu Mobile  -->
+        <i class="bi bi-list"></i>
+      </div>
+
+      <div class="menu-mobile"  id="menu-mobile"><!-- botão fechar Menu Mobile  -->
+        <div class="btn-fechar">
+          <i class="bi bi-x"></i>
+        </div>
+
+        <nav>
+          <!-- Lista de Links de Navegação para a Barra de Menu mobile -->
+          <ul>
+            <li><a href="#logo-rafa-dev">Home</a></li>
+            <li><a href="#sobre-mim">Sobre</a></li>
+            <li><a href="#txt-formacao">Formação</a></li>
+            <li><a href="#txt-esperiencia">Experiência</a></li>
+            <li><a href="#txt-portfolio">Portfólio</a></li>
+            <li><a href="#txt-fale-comigo">Contato</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="overlay-menu" id="overlay-menu"></div><!-- class para aplicação de overlay ao Menu Mobile  -->
+
+    </div>
+  </header>
+
+  <main>
+    <!-- inicio do site  -->
+    <section class="inicio-do-site">
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-topo-site">
+            <h2>Hey!</h2>
+            <h2>I'm, <span>Rafa</span>el.</h2>
+            <h1>Web Developer.</h1>
+            <!-- Botão "Entre em Contato" -->
+            <div class="botao-entre-em-contato">
+              <a href="#txt-fale-comigo">
+                <button>Entre em contato</button>
+              </a>
+            </div>
+          </div>
+          <!-- Imagem Rafa Topo do Site -->
+          <div class="img-topo-site">
+            <img src="../img/foto-rafa.png" alt="Foto Rafael" width="350" height="350" style="transform: rotate(-30deg);">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- box sobre mim  -->
+    <section class="box-sobre">
+      <div class="interface">
+        <h2 class="titulo"  id="sobre-mim"><span>Sobre </span>mim</h2>
+        <div class="flex">
+          <!-- Conteúdo "Sobre Mim" -->
+          <div class="sobre-mim">
+            <i class="bi bi-person"></i>
+            <h3>Um programador apaixonado por tecnologia.</h3>
+            <p>Sou o Rafael Santos, um programador de 21 anos, nascido e criado em São Paulo. Desde criança, sempre gostei de mexer com computadores e jogos, e foi essa paixão que me levou a estudar programação desde 2020.</p>
+            <p>Atualmente, estou cursando a faculdade de Análise e Desenvolvimento de Sistemas, e estou muito animado para aprender mais sobre essa área. Além da programação, também sou apaixonado por esportes, principalmente os radicais, como escalada e rapel. Também curto esportes como patinação e musculação.</p>
+            <p>Trabalhei como Q.A Automation na empresa Genial Investimentos por mais de 1 ano. Nesse período, desenvolvi habilidades em automação de testes, análise de dados e resolução de problemas.</p>
+            <p>Amo estudar e aprender coisas novas. Meus objetivos de aprendizado são me desenvolver ainda mais minhas habilidades em programação, como lógica e solução de problemas, e me desenvolver ainda mais como um programador full stack.</p>
+            <!-- Links para Redes Sociais -->
+            <div class="redes-sociais">
+              <a href="https://www.linkedin.com/in/raafaelsantos/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+              <a href="https://github.com/RafaelSantorski" target="_blank"><button><i class="bi bi-github"></i></button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- box minha formação  -->
+    <section class="box-formacao">
+      <div class="interface">
+        <h2 id="txt-formacao" class="titulo">Minha <span>formação</span></h2>
+          <div class="flex">
+            <div class="formacao">
+              <img src="../img/logo-uninter.jpg" width="70" height="70" alt="Logo Uninter">
+              <h3>Uninter</h3>
+              <h4>Análise e Desenvolvimento de Sistemas (Graduação)</h4>
+              <p>Formação para profissionais que projetam, desenvolvem, testam e implantam sistemas de software.</p>                            
+            </div>
+          
+            <div class="formacao">
+              <img src="../img/logo-one-bit-code.jpg" width="70" height="70" alt="Logo One Bit Code">
+              <h3>One Bit Code</h3>
+              <h4>Full Stack JavaScript</h4>
+              <p>Formação que ensina a desenvolver aplicações web do zero, desde a interface do usuário até a lógica de negócios utilizando JavaScript. O curso é dividido em duas partes: front-end e back-end.</p>
+            </div>
+
+            <div class="formacao">
+              <img src="../img/logo-QAcademy.jpg" width="70" height="70" alt="Logo QAcademy">
+              <h3>QAcademy</h3>
+              <h4>Web Automation - Cypress</h4>
+              <p>Formação que ensina a escrever testes automatizados para aplicações web utilizando a ferramenta Cypress.</p>
+            </div>
+
+            <div class="formacao">
+              <img src="../img/logo-harvard.jpg" width="70" height="70" alt="Logo Havard">
+              <h3>Havard</h3>
+              <h4>CC50</h4>
+              <p>Formação CC50 de Harvard é uma formação completa em ciência da computação, que ensina os fundamentos da programação, algoritmos, estruturas de dados, lógica e pensamento computacional. </p>    
+            </div>
+
+            <div class="formacao">
+              <img src="../img/logo-QAcademy.jpg" width="70" height="70" alt="Logo QAcademy">
+              <h3>QAcademy</h3>
+              <h4>Mobile Automation - Robot Framework</h4>
+              <p>Formação que trás um ensino completo de testes automatizados para aplicativos mobile. O curso aborda os principais conceitos de automação mobile, como instalação e configuração da ferramenta, e escrita de testes em aplicativos Android e iOS.</p>
+            </div>
+
+            <div class="formacao">
+              <img src="../img/logo-universidade-johns-hopkins.png" width="70" height="70" alt="Johns Hopkins">
+              <h3>Johns Hopkins</h3>
+              <h4>Data Science</h4>
+              <p>Formação multidisciplinar que ensina como coletar, analisar e interpretar grandes quantidades de dados, capacitando profissionais a tomar decisões estratégicas com base em diferentes tipos de dados, usando uma variedade de ferramentas e técnicas, para impactar positivamente os negócios. </p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- box experiência  -->
+    <section class="box-experiencia">
+      <div class="interface">
+        <h2 id="txt-esperiencia" class="titulo"><span>Experiência</span> com</h2>
+        <div class="flex">
+
+          <!-- Experiência 1 - Full Stack Web Development -->
+          <div class="experiencia">
+            <i class="bi bi-code-square"></i><!-- Ícone para Experiência 1 -->
+            <h3>Full Stack Web Development</h3>
+            <p>Domínio de HTML, CSS e JavaScript, bem como seus frameworks associados, como React, Vue e Angular. Minha trajetória inclui a criação de interfaces sólidas e atrativas, o design de layouts responsivos e a implementação de funcionalidades dinâmicas para oferecer experiências especializadas aos usuários.</p>
+          </div>
+
+          <!-- Experiência 2 - Web/Mobile Test Automation -->
+          <div class="experiencia">
+            <i class="bi bi-check2-circle"></i><!-- Ícone para Experiência 2 -->
+            <h3>Web/Mobile Test Automation</h3>
+            <p>Sou capaz de automatizar testes de regressão, funcionais, de desempenho e de segurança para web e mobile. Meu trabalho ajuda a garantir a qualidade e a confiabilidade dos sistemas, protegendo os usuários e economizando tempo e dinheiro visando sempre manutenção e longo prazo.</p>
+          </div>
+
+          <!-- Experiência 3 - Mobile Front-End Development -->
+          <div class="experiencia">
+            <i class="bi bi-phone"></i><!-- Ícone para Experiência 3 -->
+            <h3>Mobile Front-End Development</h3>
+            <p>Desenvolvimento de aplicativos móveis para Android, com foco em interfaces nativas, otimização de desempenho e integração de recursos avançados. Além disso, trabalho com frameworks como React Native, permitindo o desenvolvimento multiplataforma com JavaScript para oferecer ótimas experiências em ambas as plataformas móveis.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- box portfolio -->
+    <section class="portfolio">
+      <div class="interface">
+        <h2  id="txt-portfolio"  class="titulo">Meu <span>Portfólio</span></h2>
+        <!-- Lista de Projetos no Portfólio -->
+        <div class="flex">
+          <div class="img-portfolio" style="background-image: url(../img/projeto-exploracao-global.png);">
+            <div class="overlay">Exploração Global</div><!-- Overlay para o Projeto 1 -->
+          </div>
+          <div class="img-portfolio" style="background-image: url(../img/projeto-azul-profundo.png);">
+            <div class="overlay">Azul Profundo</div><!-- Projeto 2 - Azul Profundo -->
+          </div>
+          <div class="img-portfolio" style="background-image: url(../img/projeto-rafa-dev.png);">
+            <div class="overlay">Rafa Dev</div><!-- Overlay para o Projeto 3 -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- box formuário -->
+    <section class="formulario">
+      <div class="interface">
+        <h2 id="txt-fale-comigo" class="titulo">Fale <span>Comigo</span></h2>
+        <form action="" method="post">
+          <input type="text" name="nome" id="" placeholder="Seu nome:" pattern="^[a-zA-Z ]+$" required>
+          <input type="text" name="email" id="" placeholder="Seu e-mail:" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$" required>
+          <input type="tel" name="telefone" id="" placeholder="Seu celular:" pattern="^[0-9]+$" maxlength="11" required>
+          <textarea name="" id="" placeholder="Digite sua mensagem..." cols="30" rows="10" required></textarea>
+          <!-- Botão de Envio -->
+          <div class="botao-enviar">
+            <input type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+  <!-- rodapé da página -->
+  <footer>
+    <div class="interface">
+      <div class="line-footer">
+        <div class="flex">
+          <!-- Logo R do Rodapé -->
+          <div class="logo-footer">
+            <img src="../favicon_io/android-chrome-512x512.png" alt="Logo Rafa Dev" width="70" height="70">
+          </div>
+          <!-- Logo Rafa Dev no Rodapé -->
+          <div class="logo-rafa-dev-footer">
+            <img src="../img/logo-rafa-dev.png" alt="Logo Rafa Dev" width="275" height="85">
+          </div>
+          <!-- Links para Redes Sociais Linkdin e GitHub -->
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/raafaelsantos/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+            <a href="https://github.com/RafaelSantorski" target="_blank"><button><i class="bi bi-github"></i></button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+</body>
+</html>
